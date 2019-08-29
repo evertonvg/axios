@@ -1,0 +1,170 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background:lightgreen;
+    width:100%;
+    height:100vh;
+}
+
+.cabecalho{
+	position: relative;
+	top: 0;
+	left: 0;
+	background: black;
+	width: 100%;
+	height: 45vh;
+	background-image: url("../img/header.jpg");
+	/*background-position: 0 0;*/
+	/*background-repeat: no-repeat;*/
+	background-size: 100% 100%;
+}
+
+.cabecalho .menu{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: red;
+	width: 100%;
+	height: 10vh;
+}
+
+h4.home{
+	padding-top: 6px;
+	padding-left: 10px;
+	margin-top: 0;
+	font-size: 40px;
+	font-family: verdana;
+	color: white;
+	display:inline-block;
+}
+.burguer{
+	width: 60px;
+	height: 60px;
+	position:absolute;
+	top: 1px;
+	right:0;
+	cursor: pointer;
+}
+
+.conteudo{
+	width: 100%;
+	background: green;
+	height: 80vh;
+	padding-bottom: 30px;
+	margin-bottom: 0;
+	background-image: url("../img/gato.jpg");
+	background-size: 50% 50%;
+}
+
+.conteudo .inform{
+	position: relative;
+	background-color: red;
+	width: 60%;
+	height:250px;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding: 20px;
+}
+
+.inform label{
+  position:absolute;
+  left:19px;
+  margin-right:5px;
+  margin-bottom: 5px;
+}
+
+.inform .nome{
+  position:absolute;
+  margin-bottom: 5px;
+  left:125px;
+   top:23px;
+  width:225px;
+  padding-left: 150px; 
+}
+
+.inform .altura{
+	position:absolute;
+	margin-bottom: 5px;
+	left:125px;
+	 top:23px;
+	width:225px;
+	padding-left: 150px; 
+  }
+
+  .inform .genero{
+	position:absolute;
+	margin-bottom: 5px;
+	left:125px;
+	 top:23px;
+	width:225px;
+	padding-left: 150px; 
+  }
+
+.rodape{
+	width: 100%;
+	height: 5em;
+	background: blue;
+	color: white;
+	padding-top: 0;
+	margin-top: 0;
+}
+.rodape p{
+	margin-top: 0;
+	padding-top: 5px;
+	text-align: center;
+	font-family: verdana;
+}
+
+div.info{
+	position: relative;
+	width: 200px;
+	height:100px;
+}
+.info{
+	margin: 0 auto;
+	position: absolute;
+	top:20px;
+	background: green;
+	border-radius: 15px;
+	height: 40vh;
+}
+.info form{
+	font-family: verdana;
+	font-style: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.info form input[type=number]{
+	margin-top: 10px;
+	border-radius: 5px;
+	font-family: verdana;
+	font-style: 20px;
+	margin-bottom: 10px;
+}
+.info form input[type=submit]{
+	color: white;
+	background: linear-gradient(red,blue);
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 15px;
+}
+
+.jason{
+	display: none;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background:rgba(0,0,0,0.5);
+}
+
+.jason .load{
+	margin: 0 auto;
+	padding-top:16%;
+}
+

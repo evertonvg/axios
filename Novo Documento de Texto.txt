@@ -1,0 +1,17 @@
+
+ - Pode ser utilizado bootstrap ou materialize pro front
+ - Pode ser utilizado Jquery
+ - Criar formulario com 1 input number de 1 a 50
+
+ na submnissão (submit) do formulario capturar o valor desse input
+
+ fazer chamada ajax para https://swapi.co/api/people/ concatendando o numero no final
+
+ baseado na resposta do ajax, montar um html com nome, altura, genero e filmes
+
+ > Caso o usuario submeta de novo limpar o que está atualmente
+
+ > diferencial: colocar um loader enquanto esta buscando
+
+ (DICA: Se tiver usando Jquery pesquisar por beforeSend)
+
